@@ -73,6 +73,9 @@ public class TravelDealListActivity extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
 
+                // clear list
+                mDeals.clear();
+                
                 for(DataSnapshot snapshot: dataSnapshot.getChildren()){
                     TravelDeal travelDeal = snapshot.getValue(TravelDeal.class);
                     assert travelDeal != null;
