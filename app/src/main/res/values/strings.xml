@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Travelmantics</string>
+    <string name="dummy_deal_name">Deal Name</string>
+    <string name="dummy_deal_description">Deal Description</string>
+    <string name="dummy_deal_price">Deal Price</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_price">Price (in Dollars)</string>
+    <string name="hint_description">Description</string>
+    <string name="select_image">Select Image</string>
+    <string name="save_menu">Save</string>
+    <string name="delete_menu">Delete Deal</string>
+    <string name="error_empty_title">Enter title of deal</string>
+    <string name="error_empty_price">Enter price of deal</string>
+    <string name="error_empty_description">Enter description of deal</string>
+    <string name="intent_extra_deal">Deal</string>
+    <string name="progress_title">Saving Travel Deal</string>
+    <string name="progress_msg">please wait...</string>
+    <string name="msg_deal_saved">Deal saved successfully</string>
+    <string name="new_travel_deal">New Travel Deal</string>
+    <string name="signout">Signout</string>
+    <string name="signout_msg">Signout Successful</string>
+    <string name="error_delete_msg">Please save a deal before deleting</string>
+    <string name="msg_delete_success">Travel Deal deleted successfully</string>
+    <string name="text_permission_product_image" translatable="false">
+        Permissions are required in order to select image from gallery
+    </string>
+</resources>
